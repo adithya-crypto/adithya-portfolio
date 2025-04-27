@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"authorName": "John A. Cencioso",
+		"authorDesig": "Director, NAU Online, Northern Arizona University",
+		"desc": "Adithya demonstrates strategic thinking, technical excellence, and an outstanding commitment to professionalism. He maintained a high standard of academic performance while delivering results in dynamic, time-sensitive environments."
+	},
+	{
+		"id": 2,
+		"authorName": "Dr. Raman Dugyala",
+		"authorDesig": "Professor, Python Programming, Vardhaman College of Engineering",
+		"desc": "Adithya’s logical reasoning, Python expertise, and innovative thinking set him apart academically and professionally. His ability to translate theoretical knowledge into practical solutions was consistently impressive."
+	},
+	{
+		"id": 3,
+		"authorName": "Dr. M.A. Jabbar",
+		"authorDesig": "Professor, Machine Learning, Vardhaman College of Engineering",
+		"desc": "Adithya showcases remarkable leadership, machine learning expertise, and a consistent drive for innovation. He displayed excellent team spirit and remarkable presentation skills during multiple technical events."
+	},
+	{
+		"id": 4,
+		"authorName": "Dr. H. Venkateswara Reddy",
+		"authorDesig": "Professor, Algorithms, Vardhaman College of Engineering",
+		"desc": "Adithya has a strong command of algorithms, project execution, and outstanding collaborative skills. He consistently demonstrated remarkable analytical thinking and enthusiasm for applying new technologies."
+	}
+]

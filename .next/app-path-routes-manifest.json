@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/home-3/page": "/home-3",
+  "/home-2/page": "/home-2",
+  "/home-5/page": "/home-5",
+  "/home-6/page": "/home-6",
+  "/page": "/",
+  "/home-4/page": "/home-4",
+  "/blogs/page": "/blogs",
+  "/portfolio/[id]/page": "/portfolio/[id]",
+  "/services/[id]/page": "/services/[id]",
+  "/blogs/[id]/page": "/blogs/[id]"
+}
