@@ -18,7 +18,7 @@ const FunFact3 = () => {
 	useEffect(() => {
 		if (inView) {
 			const timeoutId = setTimeout(() => {
-				setValue(2);
+				setValue(3);
 				setValue2(25);
 				setValue3(4);
 			}, 250);

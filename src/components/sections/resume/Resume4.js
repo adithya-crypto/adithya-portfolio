@@ -64,6 +64,33 @@ const Resume4 = () => {
 									className=" flex flex-col md:flex-row  gap-5 lg:gap-35px 2xl:gap-95px pb-45px mb-10 last:pb-0 last:mb-0   border-b border-border-color-2 last:border-0 wow fadeInUp"
 									data-wow-delay=".4s"
 								>
+
+								
+									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
+										<div className=" w-60px  flex-shrink-0">
+											<img src="/img/icons/Rejolt-Logo.png" alt="" />
+										</div>
+										<div>
+											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
+												Full Stack Developer
+											</h4>
+											<p className=" text-primary-color dark:text-body-color group-hover:text-white-color transition-all text-size-15 uppercase mb-22px duration-300">
+												REJOLT EdTech, Hyderabad, India
+											</p>
+											<p className=" text-lg  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300">
+												Developed company’s web platform using MERN stack (MongoDB, Express, React, Node.js). Implemented secure user authentication and interactive course catalog with Firebase. Improved page load time by 40% through image optimization and asynchronous API loading.
+											</p>
+										</div>
+									</div>
+									<div className="md:flex-shrink-0">
+										<p className="  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300 md:ml-auto">
+											Jun 2020 - Apr 2022
+										</p>
+									</div>
+								</div>	
+								<div className=" flex flex-col md:flex-row  gap-5 lg:gap-35px 2xl:gap-95px pb-45px mb-10 last:pb-0 last:mb-0 border-b border-border-color-2 last:border-0 wow fadeInUp" data-wow-delay=".5s">
+
+									
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
 											<img src="/img/icons/RedHat-Logo.png" alt="" />
@@ -88,9 +115,10 @@ const Resume4 = () => {
 										</p>
 									</div>
 								</div>
+								
 								<div
 									className=" flex flex-col md:flex-row  gap-5 lg:gap-35px 2xl:gap-95px pb-45px mb-10 last:pb-0 last:mb-0   border-b border-border-color-2 last:border-0 wow fadeInUp"
-									data-wow-delay=".5s"
+									data-wow-delay=".6s"
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
@@ -273,7 +301,7 @@ const Resume4 = () => {
 												Vardhaman College of Engineering
 											</p>
 											<p className=" text-lg  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300">
-												Awarded for the innovative "JARVIS" project showcasing AI-based personal assistant system capabilities.
+												Awarded for the innovative JARVIS project showcasing AI-based personal assistant system capabilities.
 											</p>
 										</div>
 									</div>
