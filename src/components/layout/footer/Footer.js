@@ -27,7 +27,7 @@ const Footer2 = () => {
 							</li>
 
 							<li className="sm:text-lg md:text-xl font-medium text-white-color tracking-[0.02em] group">
-								<p>11133 Fairhaven Court, VA 22030, Virginia</p>
+								<p>2323 E Apache Blvd, Tempe, AZ, 85288</p>
 							</li>
 							<li className="sm:text-lg md:text-xl font-medium text-white-color tracking-[0.02em] group hidden lg:block">
 								/
