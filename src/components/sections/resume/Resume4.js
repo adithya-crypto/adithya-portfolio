@@ -44,19 +44,19 @@ const Resume4 = () => {
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
-												Software Engineer
+												AI Software Engineer
 											</h4>
 											<p className=" text-primary-color dark:text-body-color group-hover:text-white-color transition-all text-size-15 uppercase mb-22px duration-300">
 												Mastercard
 											</p>
 											<p className=" text-lg  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300">
-												Develop and optimize payment processing systems, implement secure transaction flows, and improve system reliability and performance across high-throughput services.
+												Built an internal documentation assistant using LangChain and RAG with FAISS for semantic retrieval. Developed LLM-assisted tooling for pull request reviews using OpenAI API and Hugging Face Transformers. Architected microservices-based ML inference pipelines using FastAPI and Kubernetes on AWS with sub-100ms latency. Led model monitoring infrastructure using Prometheus and Grafana with automated drift detection. Containerized services with Docker, deployed to Kubernetes, and implemented CI/CD pipelines with Jenkins and Terraform. Transitioned prototype models into production using AWS SageMaker with ETL pipelines in PySpark processing millions of records daily.
 											</p>
 										</div>
 									</div>
 									<div className="md:flex-shrink-0">
 										<p className="  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300 md:ml-auto">
-											Jun 2024 - Present
+											July 2024 - Present
 										</p>
 									</div>
 								</div>
@@ -72,13 +72,13 @@ const Resume4 = () => {
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
-												Web Developer & Data Analyst
+												Graduate Research Assistant – Machine Learning
 											</h4>
 											<p className=" text-primary-color dark:text-body-color group-hover:text-white-color transition-all text-size-15 uppercase mb-22px duration-300">
 												Northern Arizona University
 											</p>
 											<p className=" text-lg  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300">
-												Developed responsive applications and optimized databases, enhancing user engagement and improving code quality through test automation and best practices. Leverage ML models for Course Marketing Analysis. 
+												Developed ML models using scikit-learn, PyTorch, and TensorFlow for enrollment analysis with transfer learning and hyperparameter tuning. Built automated data pipelines using Python, PySpark, and PostgreSQL. Created student churn prediction models using Logistic Regression and Random Forest. Designed interactive dashboards with Streamlit and Plotly for enrollment trends. Contributed to LOUIE, an enterprise conversational AI chatbot on Google Dialogflow, integrating Oracle PeopleSoft, ServiceNow, and Salesforce for context-aware responses.
 											</p>
 										</div>
 									</div>
@@ -102,13 +102,13 @@ const Resume4 = () => {
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
-												Software Engineer
+												Software Developer (OCI Data Science)
 											</h4>
 											<p className=" text-primary-color dark:text-body-color group-hover:text-white-color transition-all text-size-15 uppercase mb-22px duration-300">
 												Oracle
 											</p>
 											<p className=" text-lg  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300">
-												Developed cloud billing and provisioning tools, automated workflows for service provisioning, and improved scalability and observability of billing services.
+												Supported cloud infrastructure analytics by developing Python scripts using Oracle&apos;s ADS SDK for exploratory analysis and model experimentation on OCI Data Science. Contributed to data preprocessing pipelines using PySpark and Oracle Data Flow for anomaly detection use cases. Built RESTful APIs using Flask and FastAPI to expose ML model outputs with caching and model versioning. Created data visualization components using Plotly and Matplotlib for model performance analysis and stakeholder presentations.
 											</p>
 										</div>
 									</div>
@@ -215,7 +215,7 @@ const Resume4 = () => {
 							</div>
 
 							{/* B.Tech in Computer Science */}
-							<div className="flex flex-col md:flex-row gap-5 lg:gap-35px 2xl:gap-95px pb-45px mb-10 border-b border-border-color-2 wow fadeInUp" data-wow-delay=".4s">
+							<div className="flex flex-col md:flex-row gap-5 lg:gap-35px 2xl:gap-95px wow fadeInUp" data-wow-delay=".4s">
 								<div className="flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 								<div className="w-60px flex-shrink-0">
 									<img src="/img/icons/VMEG-Logo.jpeg" alt="" />
