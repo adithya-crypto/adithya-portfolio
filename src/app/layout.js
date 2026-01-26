@@ -14,37 +14,77 @@ import "./css/odometer-theme-default.css";
 import "./globals.css";
 
 export const metadata = {
-  title: "Adithya Sriramoju | Full Stack Developer & AI Engineer",
+  title: {
+    default: "Adithya Sriramoju | AI/ML Software Engineer | Portfolio",
+    template: "%s | Adithya Sriramoju",
+  },
   description:
-    "Portfolio of Adithya Sriramoju – Full Stack Developer skilled in React, Node.js, Python, and AI-powered solutions. Explore my projects, blogs, and achievements.",
+    "Adithya Sriramoju – AI/ML Software Engineer at Mastercard with 3+ years of experience building production-grade ML systems, GenAI applications, and scalable LLM-based solutions. MS in Computer Science from Northern Arizona University.",
   metadataBase: new URL("https://adithyasriramoju.netlify.app"),
+  keywords: [
+    "Adithya Sriramoju",
+    "Adithya Sriramoju portfolio",
+    "Adithya Sriramoju software engineer",
+    "AI Software Engineer",
+    "ML Engineer",
+    "Mastercard software engineer",
+    "Full Stack Developer",
+    "AI Engineer portfolio",
+    "machine learning engineer",
+    "LLM developer",
+    "GenAI developer",
+    "React developer",
+    "Python developer",
+    "Northern Arizona University",
+    "Vardhaman College of Engineering",
+  ],
+  authors: [{ name: "Adithya Sriramoju", url: "https://adithyasriramoju.netlify.app" }],
+  creator: "Adithya Sriramoju",
+  publisher: "Adithya Sriramoju",
+  alternates: {
+    canonical: "https://adithyasriramoju.netlify.app",
+  },
   openGraph: {
-    title: "Adithya Sriramoju | Full Stack Developer Portfolio",
+    title: "Adithya Sriramoju | AI/ML Software Engineer | Portfolio",
     description:
-      "Explore the full-stack and AI projects of Adithya Sriramoju. Built with React, Node.js, and cutting-edge technologies.",
+      "AI/ML Software Engineer at Mastercard. Building production-grade ML systems, GenAI applications, and scalable LLM-based solutions. Explore projects, experience, and achievements.",
     url: "https://adithyasriramoju.netlify.app",
     siteName: "Adithya Sriramoju Portfolio",
+    locale: "en_US",
     images: [
       {
-        url: "/img/adithya.jpg", // Upload this to /public folder
+        url: "/img/adithya.jpg",
         width: 1200,
         height: 630,
-        alt: "Adithya Sriramoju Portfolio Banner",
+        alt: "Adithya Sriramoju - AI/ML Software Engineer Portfolio",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adithya Sriramoju Portfolio",
+    title: "Adithya Sriramoju | AI/ML Software Engineer",
     description:
-      "Full Stack Developer & AI Enthusiast. Explore React, Node.js, and AI-powered projects.",
+      "AI/ML Software Engineer at Mastercard. Building production-grade ML systems and GenAI applications.",
     images: ["/img/adithya.jpg"],
-    creator: "@your_twitter_handle", // optional
   },
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "/favicon.ico",
+  },
+  verification: {
+    // Add your Google Search Console verification code here after registering
+    // google: "your-google-verification-code",
   },
 };
 
@@ -60,11 +100,69 @@ export default function RootLayout({ children }) {
               "@type": "Person",
               name: "Adithya Sriramoju",
               url: "https://adithyasriramoju.netlify.app",
-              jobTitle: "Full Stack Developer",
+              image: "https://adithyasriramoju.netlify.app/img/adithya.jpg",
+              jobTitle: "AI/ML Software Engineer",
+              worksFor: {
+                "@type": "Organization",
+                name: "Mastercard",
+                url: "https://www.mastercard.com",
+              },
+              alumniOf: [
+                {
+                  "@type": "CollegeOrUniversity",
+                  name: "Northern Arizona University",
+                  url: "https://www.nau.edu",
+                },
+                {
+                  "@type": "CollegeOrUniversity",
+                  name: "Vardhaman College of Engineering",
+                },
+              ],
+              knowsAbout: [
+                "Machine Learning",
+                "Artificial Intelligence",
+                "LLM Systems",
+                "GenAI Applications",
+                "Full Stack Development",
+                "Python",
+                "React",
+                "Node.js",
+                "AWS",
+                "Kubernetes",
+                "MLOps",
+              ],
               sameAs: [
                 "https://github.com/adithya-crypto",
-                "https://linkedin.com/in/adithyasriramoju",
+                "https://www.linkedin.com/in/adithya-sriramoju/",
+                "https://www.instagram.com/adithya.sriramoju/",
               ],
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "2323 E Apache Blvd",
+                addressLocality: "Tempe",
+                addressRegion: "AZ",
+                postalCode: "85288",
+                addressCountry: "US",
+              },
+              email: "adithyas042@gmail.com",
+              telephone: "+19283107976",
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Adithya Sriramoju Portfolio",
+              url: "https://adithyasriramoju.netlify.app",
+              description:
+                "Portfolio of Adithya Sriramoju - AI/ML Software Engineer at Mastercard",
+              author: {
+                "@type": "Person",
+                name: "Adithya Sriramoju",
+              },
             }),
           }}
         />

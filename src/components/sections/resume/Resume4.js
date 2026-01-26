@@ -68,7 +68,7 @@ const Resume4 = () => {
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/NAU-Logo.png" alt="" />
+											<img src="/img/icons/NAU-Logo.png" alt="Northern Arizona University logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -124,7 +124,7 @@ const Resume4 = () => {
 
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/RedHat-Logo.png" alt="" />
+											<img src="/img/icons/RedHat-Logo.png" alt="Red Hat logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -154,7 +154,7 @@ const Resume4 = () => {
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/IEEE-Logo.png" alt="" />
+											<img src="/img/icons/IEEE-Logo.png" alt="IEEE logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -193,7 +193,7 @@ const Resume4 = () => {
 							<div className="flex flex-col md:flex-row gap-5 lg:gap-35px 2xl:gap-95px pb-45px mb-10 border-b border-border-color-2 wow fadeInUp" data-wow-delay=".3s">
 								<div className="flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 								<div className="w-60px flex-shrink-0">
-									<img src="/img/icons/NAU-Logo.png" alt="" />
+									<img src="/img/icons/NAU-Logo.png" alt="Northern Arizona University logo" />
 								</div>
 								<div>
 									<h4 className="text-xl leading-1.2 text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -218,7 +218,7 @@ const Resume4 = () => {
 							<div className="flex flex-col md:flex-row gap-5 lg:gap-35px 2xl:gap-95px wow fadeInUp" data-wow-delay=".4s">
 								<div className="flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 								<div className="w-60px flex-shrink-0">
-									<img src="/img/icons/VMEG-Logo.jpeg" alt="" />
+									<img src="/img/icons/VMEG-Logo.jpeg" alt="Vardhaman College of Engineering logo" />
 								</div>
 								<div>
 									<h4 className="text-xl leading-1.2 text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -267,7 +267,7 @@ const Resume4 = () => {
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/IEEE-Logo.png" alt="" />
+											<img src="/img/icons/IEEE-Logo.png" alt="IEEE India Council logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -295,7 +295,7 @@ const Resume4 = () => {
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/Hackathon.png" alt="" />
+											<img src="/img/icons/Hackathon.png" alt="Smart India Hackathon logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -323,7 +323,7 @@ const Resume4 = () => {
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/VMEG-Logo.jpeg" alt="" />
+											<img src="/img/icons/VMEG-Logo.jpeg" alt="Vardhaman College of Engineering logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
@@ -351,7 +351,7 @@ const Resume4 = () => {
 								>
 									<div className=" flex flex-col md:flex-row gap-30px md:gap-10 max-w-735px w-full">
 										<div className=" w-60px  flex-shrink-0">
-											<img src="/img/icons/VMEG-Logo.jpeg" alt="" />
+											<img src="/img/icons/VMEG-Logo.jpeg" alt="Vardhaman College of Engineering logo" />
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
