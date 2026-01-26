@@ -83,7 +83,7 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   verification: {
-    google: "googlefc0e3f7b2a66cd5e",
+    google: "cAINoj5r3yr_nw0ALQ35iI2Oit1UQfyZIva1FuWJIWU",
   },
 };
 
