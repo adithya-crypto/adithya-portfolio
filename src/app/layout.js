@@ -83,8 +83,7 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   verification: {
-    // Add your Google Search Console verification code here after registering
-    // google: "your-google-verification-code",
+    google: "googlefc0e3f7b2a66cd5e",
   },
 };
 
