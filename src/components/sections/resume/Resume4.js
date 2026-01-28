@@ -114,7 +114,7 @@ const Resume4 = () => {
 									</div>
 									<div className="md:flex-shrink-0">
 										<p className="  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300 md:ml-auto">
-											Jun 2021 - May 2022
+											Jan 2021 - May 2022
 										</p>
 									</div>
 								</div>
