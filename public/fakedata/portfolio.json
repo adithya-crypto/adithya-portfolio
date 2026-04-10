@@ -1,118 +1,117 @@
 [
-	{
-	  "id": 1,
-	  "title": "ResumeGenius",
-	  "category": "Full-Stack App",
-	  "img": "/img/portfolio/resumegenius-thumb.jpg",
-	  "shortDesc": "An AI-powered resume scoring and improvement tool built using React, Node.js, and Python NLP.",
-	  "desc": "ResumeGenius is a full-stack AI application that evaluates resumes using semantic analysis and keyword matching techniques. It generates detailed feedback and ATS-optimized suggestions for candidates.",
-	  "desc1": "I developed the full system including a React frontend, Express backend, and a Python microservice integrated with HuggingFace-hosted models for semantic scoring.",
-	  "desc2": "This project helped me enhance my full-stack skills while implementing real-world AI solutions like LLMs, resume parsing, and intelligent feedback generation.",
-	  "statusItem": [
-		{"title": "Category", "desc": "Full-Stack App"},
-		{"title": "Type", "desc": "Personal Project"},
-		{"title": "Start Date", "desc": "March 2024"},
-		{"title": "Technologies", "desc": "React, Node.js, HuggingFace, Python"}
-	  ],
-	  "descItems": [
-		{"title": "Project Goal", "desc": "To create a free resume evaluation platform leveraging LLMs and ATS-style scoring logic."},
-		{"title": "My Role", "desc": "Designed and built the full-stack architecture, integrated LLM APIs, and handled semantic scoring."},
-		{"title": "Key Features", "desc": "Resume parsing, semantic matching, keyword gap analysis, skill suggestions, ATS score generation."}
-	  ],
-	  "liveLink": "https://resumegenius-ui.vercel.app",
-	  "githubLink": "https://github.com/adithya-crypto/Complete-resume-genius"
-	},
-	{
-	  "id": 2,
-	  "title": "Jarvis Virtual Assistant",
-	  "category": "AI/LLM Project",
-	  "img": "/img/portfolio/jarvis-thumb.jpg",
-	  "shortDesc": "AI-driven virtual assistant automating research, scraping, and file operations using LangChain.",
-	  "desc": "Jarvis is an AI assistant built to automate common research tasks like web scraping, data extraction, and file generation using language models and APIs.",
-	  "desc1": "I worked on automating workflows using LangChain and Python, integrating web scraping, document generation, and LLM query handling.",
-	  "desc2": "Through this project, I learned how to orchestrate multiple AI services together for a real-world research and automation application.",
-	  "statusItem": [
-		{"title": "Category", "desc": "AI/LLM Integration"},
-		{"title": "Type", "desc": "Personal Research Project"},
-		{"title": "Start Date", "desc": "February 2024"},
-		{"title": "Technologies", "desc": "Python, LangChain, OpenAI APIs"}
-	  ],
-	  "descItems": [
-		{"title": "Project Goal", "desc": "Create an AI-powered virtual assistant for automating knowledge retrieval and file operations."},
-		{"title": "My Role", "desc": "Integrated LangChain flows, designed scraping pipelines, and deployed basic task automation APIs."},
-		{"title": "Key Features", "desc": "Prompt chaining, document retrieval, automation scripts, and task scheduling."}
-	  ],
-	  "liveLink": "",
-	  "githubLink": "https://github.com/adithya-crypto/Jarvis"
-	},
-	{
-	  "id": 3,
-	  "title": "Healthcare ETL Pipeline",
-	  "category": "Data Engineering",
-	  "img": "/img/portfolio/etl-thumb.jpg",
-	  "shortDesc": "Designed and deployed ETL pipelines for ingesting and transforming large datasets into cloud warehouses.",
-	  "desc": "Built an ETL pipeline for healthcare datasets, automating ingestion, transformation, and loading into a structured database for analytics.",
-	  "desc1": "Developed Python scripts for cleaning and transforming raw datasets, automated SQL loading scripts, and created basic dashboards for insights.",
-	  "desc2": "This project helped me gain practical experience in data engineering workflows, automation, and cloud data loading techniques.",
-	  "statusItem": [
-		{"title": "Category", "desc": "Data Engineering"},
-		{"title": "Type", "desc": "Academic Project"},
-		{"title": "Start Date", "desc": "January 2024"},
-		{"title": "Technologies", "desc": "Python, SQL, Pandas, Matplotlib"}
-	  ],
-	  "descItems": [
-		{"title": "Project Goal", "desc": "Build a complete ETL workflow for processing healthcare-related datasets and preparing them for reporting."},
-		{"title": "My Role", "desc": "Scripted the full pipeline including extraction, cleaning, transformations, and visualizations."},
-		{"title": "Key Features", "desc": "ETL automation, SQL schema design, data reporting, and pipeline scheduling basics."}
-	  ],
-	  "liveLink": "https://adithya-crypto-healthcare-data-etl-pipeline-dashboard-p7sgbs.streamlit.app",
-	  "githubLink": "https://github.com/adithya-crypto/Healthcare-Data-ETL-Pipeline"
-	},
-	{
-	  "id": 4,
-	  "title": "GitHub Scraper",
-	  "category": "Automation Tool",
-	  "img": "/img/portfolio/githubscraper-thumb.jpg",
-	  "shortDesc": "Built a Python scraper to extract GitHub user profiles, repositories, and contribution metrics.",
-	  "desc": "Developed a Python-based GitHub scraper that uses GitHub APIs and scraping techniques to gather repository data, user statistics, and PR history for analysis.",
-	  "desc1": "Designed a modular scraper using Python, integrated GitHub's REST API, and stored data locally for further reporting and visualization.",
-	  "desc2": "This project deepened my understanding of APIs, authentication, and data collection best practices.",
-	  "statusItem": [
-		{"title": "Category", "desc": "Web Scraping"},
-		{"title": "Type", "desc": "Personal Utility Project"},
-		{"title": "Start Date", "desc": "December 2023"},
-		{"title": "Technologies", "desc": "Python, GitHub API, Web Scraping"}
-	  ],
-	  "descItems": [
-		{"title": "Project Goal", "desc": "Extract and analyze public GitHub data for user profiling and repository analytics."},
-		{"title": "My Role", "desc": "Built the scraper, handled API authentication, and designed data storage workflows."},
-		{"title": "Key Features", "desc": "Pull request analysis, user profile scraping, data export to CSV/JSON formats."}
-	  ],
-	  "liveLink": "",
-	  "githubLink": "https://github.com/adithya-crypto/GitHub-scraper"
-	},
-	{
-	  "id": 5,
-	  "title": "Maze Runner",
-	  "category": "Algorithmic Project",
-	  "img": "/img/portfolio/mazerunner-thumb.jpg",
-	  "shortDesc": "Developed and visualized maze-solving algorithms using DFS and BFS techniques in Python.",
-	  "desc": "Built a visual Python application showcasing how pathfinding algorithms like BFS, DFS, and A* can solve complex mazes efficiently.",
-	  "desc1": "Implemented search algorithms from scratch and visualized the exploration of nodes and shortest paths dynamically on a GUI.",
-	  "desc2": "This project enhanced my algorithmic thinking, search pattern understanding, and Python GUI development skills.",
-	  "statusItem": [
-		{"title": "Category", "desc": "Algorithms & Visualization"},
-		{"title": "Type", "desc": "Academic Mini Project"},
-		{"title": "Start Date", "desc": "November 2023"},
-		{"title": "Technologies", "desc": "Python, Tkinter, Algorithm Design"}
-	  ],
-	  "descItems": [
-		{"title": "Project Goal", "desc": "Visualize classical search algorithms solving mazes and find optimal paths."},
-		{"title": "My Role", "desc": "Designed the visual grid, implemented DFS, BFS, and A* pathfinding logic."},
-		{"title": "Key Features", "desc": "Real-time search visualization, adjustable maze difficulty, performance comparison between algorithms."}
-	  ],
-	  "liveLink": "",
-	  "githubLink": "https://github.com/adithya-crypto/mazerunner"
-	}
-  ]
-  
+  {
+    "id": 1,
+    "title": "ByteSquadX",
+    "category": "AI / Full Stack",
+    "img": "/img/portfolio/resumegenius-thumb.jpg",
+    "shortDesc": "Enterprise-grade multi-agent AI orchestration platform built with React 19, Flask, and OpenAI GPT-4.",
+    "desc": "ByteSquadX is a full stack AI platform for creating and managing autonomous AI agents that coordinate across complex workflows. Agents have memory, XP systems, emotion tracking, and real-time status monitoring.",
+    "desc1": "Built the full stack architecture including React 19 dashboard with real-time updates, Flask backend with OpenAI GPT-4 integration, agent orchestration engine, and Firebase Firestore for memory persistence.",
+    "desc2": "Core engineering challenges included designing the multi-agent coordination system, building real-time agent status monitoring, and implementing memory retrieval across agent sessions.",
+    "statusItem": [
+      {"title": "Category", "desc": "AI Orchestration"},
+      {"title": "Type", "desc": "Personal Project"},
+      {"title": "Start Date", "desc": "July 2025"},
+      {"title": "Technologies", "desc": "React 19, Flask, OpenAI GPT-4, Firebase, Python"}
+    ],
+    "descItems": [
+      {"title": "Project Goal", "desc": "Build an enterprise-grade platform for orchestrating teams of autonomous AI agents across multi-step workflows."},
+      {"title": "My Role", "desc": "Designed and built the full stack architecture, agent orchestration engine, memory system, and real-time dashboard."},
+      {"title": "Key Features", "desc": "Multi-agent coordination, XP and memory system, role-based task assignment, real-time analytics dashboard, automated workflow management."}
+    ],
+    "liveLink": "",
+    "githubLink": "https://github.com/adithya-crypto/ByteSquadX"
+  },
+  {
+    "id": 2,
+    "title": "ResumeGenius",
+    "category": "Full Stack / AI",
+    "img": "/img/portfolio/resumegenius-thumb.jpg",
+    "shortDesc": "Full stack AI resume scoring and optimization tool using React, Node.js, and HuggingFace models.",
+    "desc": "ResumeGenius is a full stack AI application that evaluates resumes using semantic analysis and keyword matching. It generates detailed ATS-optimized feedback for candidates.",
+    "desc1": "Built the complete system including React frontend, Express backend, and a Python microservice integrated with HuggingFace models for semantic scoring and keyword gap analysis.",
+    "desc2": "Core engineering work involved building the resume parsing pipeline, integrating LLM APIs for contextual feedback generation, and designing the scoring algorithm.",
+    "statusItem": [
+      {"title": "Category", "desc": "Full Stack App"},
+      {"title": "Type", "desc": "Personal Project"},
+      {"title": "Start Date", "desc": "March 2024"},
+      {"title": "Technologies", "desc": "React, Node.js, Python, HuggingFace"}
+    ],
+    "descItems": [
+      {"title": "Project Goal", "desc": "Build a free resume evaluation platform leveraging LLMs and ATS-style scoring logic."},
+      {"title": "My Role", "desc": "Designed and built the full stack architecture, integrated LLM APIs, and handled semantic scoring pipeline."},
+      {"title": "Key Features", "desc": "Resume parsing, semantic matching, keyword gap analysis, skill suggestions, ATS score generation."}
+    ],
+    "liveLink": "https://resumegenius-ui.vercel.app",
+    "githubLink": "https://github.com/adithya-crypto/Complete-resume-genius"
+  },
+  {
+    "id": 3,
+    "title": "MeetingSense",
+    "category": "AI / NLP",
+    "img": "/img/portfolio/etl-thumb.jpg",
+    "shortDesc": "AI-powered meeting transcription and summarization tool that turns recordings into actionable insights.",
+    "desc": "MeetingSense is an intelligent web application that transcribes audio recordings and generates structured summaries, action items, and key decisions from meetings.",
+    "desc1": "Built the transcription pipeline using Python and NLP libraries, designed the summarization layer using LLM APIs, and created the web interface for uploading and reviewing meeting outputs.",
+    "desc2": "Core challenge was building a reliable pipeline that handled varying audio quality and produced consistent structured output across different meeting formats.",
+    "statusItem": [
+      {"title": "Category", "desc": "AI / NLP"},
+      {"title": "Type", "desc": "Personal Project"},
+      {"title": "Start Date", "desc": "March 2025"},
+      {"title": "Technologies", "desc": "Python, LLM APIs, NLP, Web"}
+    ],
+    "descItems": [
+      {"title": "Project Goal", "desc": "Turn lengthy meeting recordings into concise actionable summaries automatically."},
+      {"title": "My Role", "desc": "Built the full pipeline from audio ingestion to structured summary generation and web interface."},
+      {"title": "Key Features", "desc": "Audio transcription, LLM-powered summarization, action item extraction, meeting insights dashboard."}
+    ],
+    "liveLink": "",
+    "githubLink": "https://github.com/adithya-crypto/MeetingSense"
+  },
+  {
+    "id": 4,
+    "title": "Hiring Radar",
+    "category": "Automation / Data",
+    "img": "/img/portfolio/githubscraper-thumb.jpg",
+    "shortDesc": "Job market intelligence platform for tracking and analyzing engineering job trends using Python.",
+    "desc": "Hiring Radar is a Python-based platform that aggregates and analyzes job market data to surface trends, track demand for specific skills, and identify high-opportunity roles.",
+    "desc1": "Built the data collection pipeline, job aggregation logic, trend analysis engine, and visualization layer to surface actionable job market intelligence.",
+    "desc2": "Designed to solve a real problem — understanding which skills and roles are actually in demand versus what the market claims.",
+    "statusItem": [
+      {"title": "Category", "desc": "Data / Automation"},
+      {"title": "Type", "desc": "Personal Project"},
+      {"title": "Start Date", "desc": "August 2025"},
+      {"title": "Technologies", "desc": "Python, Data Analysis, Automation"}
+    ],
+    "descItems": [
+      {"title": "Project Goal", "desc": "Build a job market intelligence tool that surfaces real demand trends for engineering roles and skills."},
+      {"title": "My Role", "desc": "Built the full pipeline from data collection to trend analysis and visualization."},
+      {"title": "Key Features", "desc": "Job aggregation, skill demand tracking, trend visualization, role opportunity scoring."}
+    ],
+    "liveLink": "",
+    "githubLink": "https://github.com/adithya-crypto/hiring-radar"
+  },
+  {
+    "id": 5,
+    "title": "Healthcare ETL Pipeline",
+    "category": "Data Engineering",
+    "img": "/img/portfolio/etl-thumb.jpg",
+    "shortDesc": "Production-grade ETL pipeline for healthcare appointment data using medallion architecture.",
+    "desc": "Implements a robust Extract-Transform-Load pipeline for healthcare appointment data following the medallion architecture pattern with bronze, silver, and gold layers for progressive data refinement.",
+    "desc1": "Built the full pipeline including raw ingestion, transformation logic, data quality checks, and a Streamlit analytics dashboard for visualizing appointment trends.",
+    "desc2": "Designed around real healthcare data engineering patterns with automated quality controls and layered data processing.",
+    "statusItem": [
+      {"title": "Category", "desc": "Data Engineering"},
+      {"title": "Type", "desc": "Personal Project"},
+      {"title": "Start Date", "desc": "April 2025"},
+      {"title": "Technologies", "desc": "Python, SQL, Pandas, Streamlit, Medallion Architecture"}
+    ],
+    "descItems": [
+      {"title": "Project Goal", "desc": "Build a production-grade ETL pipeline following real data engineering best practices for healthcare data."},
+      {"title": "My Role", "desc": "Designed and built the full medallion architecture pipeline with automated quality controls and analytics dashboard."},
+      {"title": "Key Features", "desc": "Bronze/silver/gold data layers, automated quality checks, SQL transformations, Streamlit dashboard, pipeline scheduling."}
+    ],
+    "liveLink": "https://adithya-crypto-healthcare-data-etl-pipeline-dashboard-p7sgbs.streamlit.app",
+    "githubLink": "https://github.com/adithya-crypto/Healthcare-Data-ETL-Pipeline"
+  }
+]

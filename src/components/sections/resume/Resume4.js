@@ -50,7 +50,7 @@ const Resume4 = () => {
 												Mastercard
 											</p>
 											<p className=" text-lg  text-seondary-color dark:text-body-color group-hover:text-white-color transition-all duration-300">
-												Built an internal documentation assistant using LangChain and RAG with FAISS for semantic retrieval. Developed LLM-assisted tooling for pull request reviews using OpenAI API and Hugging Face Transformers. Architected microservices-based ML inference pipelines using FastAPI and Kubernetes on AWS with sub-100ms latency. Led model monitoring infrastructure using Prometheus and Grafana with automated drift detection. Containerized services with Docker, deployed to Kubernetes, and implemented CI/CD pipelines with Jenkins and Terraform. Transitioned prototype models into production using AWS SageMaker with ETL pipelines in PySpark processing millions of records daily.
+												Built AI-powered internal tools and full stack platforms including a RAG-based documentation assistant using LangChain, FAISS, and AWS Bedrock that reduced search time by 40%. Developed LLM-assisted developer workflows integrating OpenAI API and Hugging Face Transformers for code review automation. Built React and Node.js dashboards with real-time WebSocket connections for ML model monitoring, and designed FastAPI inference pipelines with Redis caching and Kubernetes deployments on AWS. Implemented CI/CD pipelines using Jenkins and GitHub Actions with Prometheus and Grafana observability across production services.
 											</p>
 										</div>
 									</div>
@@ -72,7 +72,7 @@ const Resume4 = () => {
 										</div>
 										<div>
 											<h4 className="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-medium">
-												Graduate Research Assistant – Machine Learning
+												Technical Team Member
 											</h4>
 											<p className=" text-primary-color dark:text-body-color group-hover:text-white-color transition-all text-size-15 uppercase mb-22px duration-300">
 												Northern Arizona University
